@@ -9,27 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+       
         NavigationView{
+            
             List{
-                NavigationLink(destintion: SnowBoarding()){
+                
+                NavigationLink(destination: SnowBoarding()){
                     Text("SnowBoarding")
                 }
+                
+                NavigationLink(destination: Basketball()){
+                        Text("Basketball")
+                }
+                
+                NavigationLink(destination: VideoGames()){
+                            Text("Video games")
+                    
+                }
+                
             }
-        }
-        
-        
-        VStack {
-           
+            .navigationTitle("Fovourite Things")
             
-            Image ("Hello, world!")
-                .resizable()
-                .scaledToFit()
-            
-            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
         }
         
     }
-}
+        
+        
+       
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
