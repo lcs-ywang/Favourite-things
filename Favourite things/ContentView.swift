@@ -9,8 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView{
+            List{
+                NavigationLink(destintion: SnowBoarding()){
+                    Text("SnowBoarding")
+                }
+            }
+        }
+        
+        
+        VStack {
+           
+            
+            Image ("Hello, world!")
+                .resizable()
+                .scaledToFit()
+            
+            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+        }
+        
     }
 }
 
