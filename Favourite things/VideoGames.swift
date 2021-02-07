@@ -10,15 +10,36 @@ import SwiftUI
 struct VideoGames: View {
     var body: some View {
         VStack {
-        
-        
-        Image ("Hello, world!")
-            .resizable()
-            .scaledToFit()
-        
-        Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-    
+            Image ("Call of Duty")
+                .resizable()
+                .padding()
+                .scaledToFit()
+            
+            HStack{
+                VStack {
+                    Image ("Forza")
+                    .resizable()
+                    .padding(.leading)
+                    .scaledToFit()
+                    
+                    Image ("Forza 2")
+                    .resizable()
+                    .padding(.leading)
+                    .scaledToFit()
+                }
+               
+                Text("Playing videos games is a great way for me to relax myself under the presssure of studying. It can also help me with getting rid of the negative emotions")
+                    .multilineTextAlignment(.leading)
+                    .padding(.trailing)
+                
+            }
+            
+            Image ("League of Legends")
+                .resizable()
+                .padding(.horizontal)
+                .scaledToFit()
         }
+        .navigationTitle("VideoGames")
     }
 }
 

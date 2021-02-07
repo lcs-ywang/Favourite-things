@@ -22,7 +22,7 @@ struct SnowBoarding: View {
                 
                 Text("Snowboarding is my favorite sport on the snow, each time of snowboarding makes me feel excited and passionate. Although I am not a professional snowboarder sor far, I will never stop practicing.")
                     .multilineTextAlignment(.leading)
-                    .padding()
+                    .padding(.trailing)
                 
             }
             
