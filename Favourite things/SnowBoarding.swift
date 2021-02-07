@@ -17,10 +17,12 @@ struct SnowBoarding: View {
             HStack{
                 Image ("SnowBoarding 2")
                     .resizable()
+                    .padding(.leading)
                     .scaledToFit()
                 
                 Text("Snowboarding is my favorite sport on the snow, each time of snowboarding makes me feel excited and passionate. Although I am not a professional snowboarder sor far, I will never stop practicing.")
-                    .padding(.leading)
+                    .multilineTextAlignment(.leading)
+                    .padding()
                 
             }
             

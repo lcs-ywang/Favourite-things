@@ -10,14 +10,10 @@ import SwiftUI
 struct Basketball: View {
     var body: some View {
         VStack {
-            Spacer()
-            Image ("Hello, world!")
-                .resizable()
-                .scaledToFit()
             
-            Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-            Spacer()
-        }
+            }
+            
+            
     }
 }
 
