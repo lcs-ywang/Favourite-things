@@ -9,17 +9,24 @@ import SwiftUI
 
 struct SnowBoarding: View {
     var body: some View {
-        
-        
         VStack {
-        
-        
-        Image ("Hello, world!")
-            .resizable()
-            .scaledToFit()
-        
-        Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-    
+            Image ("SnowBoarding 1")
+                .resizable()
+                .scaledToFit()
+            
+            HStack{
+                Image ("SnowBoarding 2")
+                    .resizable()
+                    .scaledToFit()
+                
+                Text("Snowboarding is my favorite sport on the snow, each time of snowboarding makes me feel excited and passionate. Although I am not a professional snowboarder sor far, I will never stop practicing.")
+                    .padding(.leading)
+                
+            }
+            
+            Image ("SnowBoarding 3")
+                .resizable()
+                .scaledToFit()
         }
         .navigationTitle("SnowBoarding")
     }
