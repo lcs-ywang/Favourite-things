@@ -19,7 +19,7 @@ struct VideoGames: View {
                 VStack {
                     Image ("Forza")
                     .resizable()
-                    .padding(.leading)
+                        .padding([.leading, .bottom])
                     .scaledToFit()
                     
                     Image ("Forza 2")
@@ -30,7 +30,7 @@ struct VideoGames: View {
                
                 Text("Playing videos games is a great way for me to relax myself under the presssure of studying. It can also help me with getting rid of the negative emotions")
                     .multilineTextAlignment(.leading)
-                    .padding(.trailing)
+                    .padding(.horizontal)
                 
             }
             

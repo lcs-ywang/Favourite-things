@@ -12,6 +12,7 @@ struct SnowBoarding: View {
         VStack {
             Image ("SnowBoarding 1")
                 .resizable()
+                .padding(.trailing)
                 .scaledToFit()
             
             HStack{
