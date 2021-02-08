@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SnowBoarding: View {
     var body: some View {
-        VStack {
+        ScrollView {
             Image ("SnowBoarding 1")
                 .resizable()
                 .padding(.horizontal)
@@ -29,6 +29,7 @@ struct SnowBoarding: View {
             
             Image ("SnowBoarding 3")
                 .resizable()
+                .padding(.horizontal)
                 .scaledToFit()
         }
         .navigationTitle("SnowBoarding")

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Basketball: View {
     var body: some View {
-        VStack {
+        ScrollView {
             Image ("Basketball 1")
                 .resizable()
                 .padding()
@@ -21,7 +21,7 @@ struct Basketball: View {
                     .padding(.leading)
                     .scaledToFit()
                 
-                Text("Baketball is my favorite sport. I really like to play basketball with my friends and watch the NBA games. Basketball is of great significance to promote the enhancement of my physical fitness and the cultivation of healthy psychology ")
+                Text("Baketball is my favorite sport. I really like to play basketball with my friends and watch the NBA games. Basketball is of great significance to promote the enhancement of my physical fitness and the cultivation of healthy psychology.")
                     .multilineTextAlignment(.leading)
                     .padding(.trailing)
                 

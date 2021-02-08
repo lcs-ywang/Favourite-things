@@ -16,20 +16,19 @@ struct ContentView: View {
                 
                 NavigationLink(destination: SnowBoarding())
                 {
-                    ListItem(hint: "🏂", title: "SnowBoarding", summary: "Snowboarding is the reason that I have lower marks in the winter"
+                    ListItem(hint: "🏂", title: "SnowBoarding", summary: "Snowboarding is the reason that I have lower marks in the winter."
                     )
                 }
                 
                 NavigationLink(destination: Basketball())
                 {
-                    ListItem(hint: "🏀", title: "Basketball", summary: "Basketball is the sport I really want to play everyday even in the pandemic"
+                    ListItem(hint: "🏀", title: "Basketball", summary: "Basketball is the sport I really want to play everyday even in the pandemic."
                     )
                 }
                 
                 NavigationLink(destination: VideoGames())
                 {
                     ListItem(hint: "🎮", title: "Video games", summary: "Not a good thing but is is my favourite."
-                        
                     )
                 }
                 
@@ -49,7 +48,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
 
 
 

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct VideoGames: View {
     var body: some View {
-        VStack {
+        ScrollView {
             Image ("Call of Duty")
                 .resizable()
                 .padding()
@@ -28,7 +28,7 @@ struct VideoGames: View {
                     .scaledToFit()
                 }
                
-                Text("Playing videos games is a great way for me to relax myself under the presssure of studying. It can also help me with getting rid of the negative emotions")
+                Text("Playing videos games is a great way for me to relax myself under the presssure of studying. It can also help me with getting rid of the negative emotions.")
                     .multilineTextAlignment(.leading)
                     .padding(.horizontal)
                 
@@ -38,6 +38,8 @@ struct VideoGames: View {
                 .resizable()
                 .padding(.horizontal)
                 .scaledToFit()
+            Text("I played video games a lot in my spare time. It is my way to get out of depression and be energetic for the brand new day. I often play league of legends with my friend on Saturday's night. It is bsolutely not just an entertaining but also a way to learn cooperation and communication.                                      Gradually, video games are becoming into my skill to do the socializing when I met the people I am not familiar with. Talking about the video games is always a not bad start of the converstation")
+                .padding([.top, .leading, .trailing])
         }
         .navigationTitle("VideoGames")
     }
