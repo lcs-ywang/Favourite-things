@@ -12,13 +12,13 @@ struct SnowBoarding: View {
         VStack {
             Image ("SnowBoarding 1")
                 .resizable()
-                .padding(.trailing)
+                .padding(.horizontal)
                 .scaledToFit()
             
             HStack{
                 Image ("SnowBoarding 2")
                     .resizable()
-                    .padding(.leading)
+                    .padding([.top, .leading, .bottom])
                     .scaledToFit()
                 
                 Text("Snowboarding is my favorite sport on the snow, each time of snowboarding makes me feel excited and passionate. Although I am not a professional snowboarder sor far, I will never stop practicing.")

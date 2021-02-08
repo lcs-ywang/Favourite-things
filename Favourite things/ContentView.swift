@@ -15,22 +15,64 @@ struct ContentView: View {
             List{
                 
                 NavigationLink(destination: SnowBoarding()){
-                    Text("SnowBoarding")
+                    HStack{
+                        
+                        Text("🏂")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
+                            Text("SnowBoarding")
+                                .multilineTextAlignment(.leading)
+                            
+                            Text("Snow boarding is the reason that I have lower marks in the winter.")
+                                .font(.caption)
+                                .multilineTextAlignment(.leading)
+                            
+                        }
+                    }
                 }
                 
                 NavigationLink(destination: Basketball()){
-                        Text("Basketball")
+                    HStack{
+                        
+                        Text("🏀")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
+                            Text("Basketball")
+                                .multilineTextAlignment(.leading)
+                            
+                            Text("Baketball is the sport I rally want to play everyday even in the pendemic.")
+                                .font(.caption)
+                                .multilineTextAlignment(.leading)
+                            
+                        }
+                    }
                 }
                 
                 NavigationLink(destination: VideoGames()){
+                    HStack{
+                        
+                        Text("🎮")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
                             Text("Video games")
-                    
+                                .multilineTextAlignment(.leading)
+                            
+                            Text("Not a goodthing but it is my favourite.")
+                                .font(.caption)
+                                .multilineTextAlignment(.leading)
+                            
+                        }
+                    }
                 }
                 
             }
             .navigationTitle("Fovourite Things")
             
         }
+        .padding()
         
     }
         
