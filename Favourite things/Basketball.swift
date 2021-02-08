@@ -29,7 +29,7 @@ struct Basketball: View {
             
             Image ("Basketball 3")
                 .resizable()
-                .padding(.horizontal)
+                .padding(.all)
                 .scaledToFit()
         }
         .navigationTitle("Basketball")
@@ -41,3 +41,4 @@ struct Basketball_Previews: PreviewProvider {
         Basketball()
     }
 }
+
