@@ -14,58 +14,23 @@ struct ContentView: View {
             
             List{
                 
-                NavigationLink(destination: SnowBoarding()){
-                    HStack{
-                        
-                        Text("🏂")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            Text("SnowBoarding")
-                                .multilineTextAlignment(.leading)
-                            
-                            Text("Snow boarding is the reason that I have lower marks in the winter.")
-                                .font(.caption)
-                                .multilineTextAlignment(.leading)
-                            
-                        }
-                    }
+                NavigationLink(destination: SnowBoarding())
+                {
+                    ListItem(hint: "🏂", title: "SnowBoarding", summary: "Snowboarding is the reason that I have lower marks in the winter"
+                    )
                 }
                 
-                NavigationLink(destination: Basketball()){
-                    HStack{
-                        
-                        Text("🏀")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            Text("Basketball")
-                                .multilineTextAlignment(.leading)
-                            
-                            Text("Baketball is the sport I rally want to play everyday even in the pendemic.")
-                                .font(.caption)
-                                .multilineTextAlignment(.leading)
-                            
-                        }
-                    }
+                NavigationLink(destination: Basketball())
+                {
+                    ListItem(hint: "🏀", title: "Basketball", summary: "Basketball is the sport I really want to play everyday even in the pandemic"
+                    )
                 }
                 
-                NavigationLink(destination: VideoGames()){
-                    HStack{
+                NavigationLink(destination: VideoGames())
+                {
+                    ListItem(hint: "🎮", title: "Video games", summary: "Not a good thing but is is my favourite."
                         
-                        Text("🎮")
-                            .font(.largeTitle)
-                        
-                        VStack(alignment: .leading){
-                            Text("Video games")
-                                .multilineTextAlignment(.leading)
-                            
-                            Text("Not a goodthing but it is my favourite.")
-                                .font(.caption)
-                                .multilineTextAlignment(.leading)
-                            
-                        }
-                    }
+                    )
                 }
                 
             }
@@ -86,9 +51,8 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 
-var hint: String
-var title: String
-var summary: String
+
+
 
 
 
