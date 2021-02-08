@@ -84,3 +84,11 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+var hint: String
+var title: String
+var summary: String
+
+
+
