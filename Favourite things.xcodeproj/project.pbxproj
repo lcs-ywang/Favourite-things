@@ -14,9 +14,8 @@
 		3C12FCF225CCC8D3001DAF9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C12FCF125CCC8D3001DAF9C /* Preview Assets.xcassets */; };
 		3C12FCFD25CCC8D5001DAF9C /* Favourite_thingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12FCFC25CCC8D5001DAF9C /* Favourite_thingsTests.swift */; };
 		3C12FD0825CCC8D5001DAF9C /* Favourite_thingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C12FD0725CCC8D5001DAF9C /* Favourite_thingsUITests.swift */; };
-		3C6ADE6225CDA9350025D824 /* SnowBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE6125CDA9350025D824 /* SnowBoarding.swift */; };
-		3C6ADE6725CDA9640025D824 /* Basketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE6625CDA9640025D824 /* Basketball.swift */; };
-		3C6ADE6C25CDA9800025D824 /* VideoGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6ADE6B25CDA9800025D824 /* VideoGames.swift */; };
+		3CB9051525D37257000F372B /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9051425D37257000F372B /* Thing.swift */; };
+		3CB9051A25D372B0000F372B /* ThingDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB9051925D372B0000F372B /* ThingDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +49,8 @@
 		3C12FD0325CCC8D5001DAF9C /* Favourite thingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Favourite thingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C12FD0725CCC8D5001DAF9C /* Favourite_thingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite_thingsUITests.swift; sourceTree = "<group>"; };
 		3C12FD0925CCC8D5001DAF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C6ADE6125CDA9350025D824 /* SnowBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowBoarding.swift; sourceTree = "<group>"; };
-		3C6ADE6625CDA9640025D824 /* Basketball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basketball.swift; sourceTree = "<group>"; };
-		3C6ADE6B25CDA9800025D824 /* VideoGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoGames.swift; sourceTree = "<group>"; };
+		3CB9051425D37257000F372B /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		3CB9051925D372B0000F372B /* ThingDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +107,8 @@
 				3C12FCEE25CCC8D3001DAF9C /* Assets.xcassets */,
 				3C12FCF325CCC8D3001DAF9C /* Info.plist */,
 				3C12FCF025CCC8D3001DAF9C /* Preview Content */,
-				3C6ADE6125CDA9350025D824 /* SnowBoarding.swift */,
-				3C6ADE6625CDA9640025D824 /* Basketball.swift */,
-				3C6ADE6B25CDA9800025D824 /* VideoGames.swift */,
+				3CB9051425D37257000F372B /* Thing.swift */,
+				3CB9051925D372B0000F372B /* ThingDetails.swift */,
 			);
 			path = "Favourite things";
 			sourceTree = "<group>";
@@ -271,12 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C6ADE6725CDA9640025D824 /* Basketball.swift in Sources */,
 				3C0EACB625D1A36000DDA671 /* List item.swift in Sources */,
 				3C12FCED25CCC8D1001DAF9C /* ContentView.swift in Sources */,
-				3C6ADE6225CDA9350025D824 /* SnowBoarding.swift in Sources */,
 				3C12FCEB25CCC8D1001DAF9C /* Favourite_thingsApp.swift in Sources */,
-				3C6ADE6C25CDA9800025D824 /* VideoGames.swift in Sources */,
+				3CB9051A25D372B0000F372B /* ThingDetails.swift in Sources */,
+				3CB9051525D37257000F372B /* Thing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
