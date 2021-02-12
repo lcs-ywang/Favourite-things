@@ -38,7 +38,7 @@ let favouriteThings = [
             
             Segment(image: "SnowBoarding 4",
                     text: """
-                        The decending from the top of the hill but walking in the snow from the bottom to the top was so tired.
+                        The decending from the top of the hill is pretty good all the time but walking in the snow from the bottom to the top was so tired.
                         """)
           ]),
     
@@ -86,4 +86,29 @@ let favouriteThings = [
                         """),
           ]),
 
+
+
+Thing(hint: "📷",
+      title: "Photographing",
+      summary: "Photographing is a great way for me to record some beautiful and unforgettabe moment",
+      segments: [
+        Segment(image: "Photographing 1",
+                text: "Photographig is my way to record my daily school life and to show my parents how happy and colourful is my life in LCS. Photographing is a very powerful thing, it can combined some emotions and spirits inside the picture. it can also change a immediate moment into internal. "),
+        
+        Segment(image: "Photographing 2",
+                text: "Sun set is always so gorgeous in Lcs campus. The reflection of the sunshine on the lake katchewanooka is so elegant. To be honest I can't even tell which side is the lake and which side is the sky due to the insane purity of the lake."),
+
+        Segment(image: "Photographing 3",
+                text: """
+                    That photo was taken during the summer vacation of 2019 on the campus of LCS. This evening was the graduation ceremony of ELL summer school for my summer vacation. We set off fireworks and ate cakes in the dark and had a very beautiful night.
+                    This photo is a great description of hope which is one of my top 5 character strengths. I am related to the firework in this photo. The dark night seems to symbolize the difficulties and obstacles I encountered. The mean words I received in my life are like the cold temperature that night. Even if the surrounding environment is not friendly to me, I will still do my best to bloom the most charming fireworks.
+                    """),
+        
+        Segment(image: "Photographing 4",
+                text: """
+I also got a drone so I can take some intersting pictures but unfortunately, I crashed it!😂
+""")
+      ]),
+
+    
 ]
